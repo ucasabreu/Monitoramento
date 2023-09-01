@@ -1,0 +1,1921 @@
+[ {
+  "host" : {
+    "hostname" : "PJ-PARAIBANO-FORTEL-10M-339170",
+    "ip" : "10.2.4.89",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 4815.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 3001.0,
+    "qtdFallEvents" : 18.0,
+    "qtdFallEventsThisMonth" : 12.0,
+    "lastDownIndex" : "2023-08-28-08-02-24",
+    "lastUpIndex" : "2023-08-29-07-48-58"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-RIACHAO-FORTEL-10M-322918",
+    "ip" : "10.2.4.100",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22934.0,
+    "qtdZeroPing" : 3233.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1165.0,
+    "qtdFallEvents" : 22.0,
+    "qtdFallEventsThisMonth" : 18.0,
+    "lastDownIndex" : "2023-08-31-10-23-40",
+    "lastUpIndex" : "2023-08-31-10-23-50"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-IMPERATRIZ-FORTEL-100M-339196",
+    "ip" : "10.2.4.71",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 48,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 2915.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1104.0,
+    "qtdFallEvents" : 42.0,
+    "qtdFallEventsThisMonth" : 34.0,
+    "lastDownIndex" : "2023-08-31-09-44-10",
+    "lastUpIndex" : "2023-08-31-09-44-20"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PARNARAMA-FORTEL-10M-341624",
+    "ip" : "10.2.4.90",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22940.0,
+    "qtdZeroPing" : 3936.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 2109.0,
+    "qtdFallEvents" : 744.0,
+    "qtdFallEventsThisMonth" : 728.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-CAXIAS-FORTEL-100M-339554",
+    "ip" : "10.2.4.61",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 65,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 2866.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1057.0,
+    "qtdFallEvents" : 28.0,
+    "qtdFallEventsThisMonth" : 22.0,
+    "lastDownIndex" : "2023-08-31-09-44-10",
+    "lastUpIndex" : "2023-08-31-09-44-20"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-COROATA-FORTEL-10M-340012",
+    "ip" : "10.2.4.65",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22940.0,
+    "qtdZeroPing" : 4011.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 2183.0,
+    "qtdFallEvents" : 527.0,
+    "qtdFallEventsThisMonth" : 510.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ARAIOSES-FORTEL-10M-343470",
+    "ip" : "10.2.4.47",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 31,
+    "nping" : 22950.0,
+    "qtdZeroPing" : 3147.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1271.0,
+    "qtdFallEvents" : 106.0,
+    "qtdFallEventsThisMonth" : 92.0,
+    "lastDownIndex" : "2023-08-31-11-15-25",
+    "lastUpIndex" : "2023-08-31-11-15-35"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BARREIRINHAS-FORTEL-20M-315888",
+    "ip" : "10.2.4.15",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22946.0,
+    "qtdZeroPing" : 4351.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 2409.0,
+    "qtdFallEvents" : 19.0,
+    "qtdFallEventsThisMonth" : 10.0,
+    "lastDownIndex" : "2023-08-23-09-32-53",
+    "lastUpIndex" : "2023-08-23-09-33-03"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PENALVA-FORTEL-10M-310746",
+    "ip" : "10.2.4.29",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 2888.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1077.0,
+    "qtdFallEvents" : 48.0,
+    "qtdFallEventsThisMonth" : 43.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-HUMBERTO-CAMPOS-FORTEL-10M-326424",
+    "ip" : "10.2.4.23",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 2947.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1132.0,
+    "qtdFallEvents" : 53.0,
+    "qtdFallEventsThisMonth" : 45.0,
+    "lastDownIndex" : "2023-08-31-10-50-02",
+    "lastUpIndex" : "2023-08-31-10-50-12"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SAO-JOAO-PATOS-FORTEL-10M-331626",
+    "ip" : "10.2.4.104",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 30,
+    "nping" : 22935.0,
+    "qtdZeroPing" : 2861.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1055.0,
+    "qtdFallEvents" : 28.0,
+    "qtdFallEventsThisMonth" : 22.0,
+    "lastDownIndex" : "2023-08-30-08-13-27",
+    "lastUpIndex" : "2023-08-30-08-13-37"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-GRAJAU-FORTEL-10M-314138",
+    "ip" : "10.2.4.69",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22940.0,
+    "qtdZeroPing" : 2889.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1077.0,
+    "qtdFallEvents" : 27.0,
+    "qtdFallEventsThisMonth" : 21.0,
+    "lastDownIndex" : "2023-08-31-10-23-40",
+    "lastUpIndex" : "2023-08-31-10-23-50"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ITINGA-FORTEL-10M-339326",
+    "ip" : "10.2.4.73",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22936.0,
+    "qtdZeroPing" : 4205.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 2396.0,
+    "qtdFallEvents" : 82.0,
+    "qtdFallEventsThisMonth" : 75.0,
+    "lastDownIndex" : "2023-08-31-10-23-40",
+    "lastUpIndex" : "2023-08-31-10-23-50"
+  }
+}, {
+  "host" : {
+    "hostname" : "SLS-PJ-CREAISPI-FORTEL-20M-149307-00103",
+    "ip" : "10.2.4.122",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22255.0,
+    "qtdZeroPing" : 2854.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1047.0,
+    "qtdFallEvents" : 17.0,
+    "qtdFallEventsThisMonth" : 13.0,
+    "lastDownIndex" : "2023-08-23-11-31-12",
+    "lastUpIndex" : "2023-08-23-11-31-32"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-JOSELANDIA-FORTEL-10M-345382",
+    "ip" : "10.2.4.76",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 3561.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1750.0,
+    "qtdFallEvents" : 80.0,
+    "qtdFallEventsThisMonth" : 75.0,
+    "lastDownIndex" : "2023-08-31-09-38-29",
+    "lastUpIndex" : "2023-08-29-10-28-50"
+  }
+}, {
+  "host" : {
+    "hostname" : "SLS-PJECA-BITAL-100M-QINQ-2707",
+    "ip" : "10.2.2.17",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22941.0,
+    "qtdZeroPing" : 3857.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1828.0,
+    "qtdFallEvents" : 1070.0,
+    "qtdFallEventsThisMonth" : 1059.0,
+    "lastDownIndex" : "2023-08-31-11-22-05",
+    "lastUpIndex" : "2023-08-31-11-22-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BURITI-BRAVO-FORTEL-10M-343314",
+    "ip" : "10.2.4.56",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 4252.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 2082.0,
+    "qtdFallEvents" : 53.0,
+    "qtdFallEventsThisMonth" : 47.0,
+    "lastDownIndex" : "2023-08-31-09-52-08",
+    "lastUpIndex" : "2023-08-31-09-52-18"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-LORETO-FORTEL-10M-306484",
+    "ip" : "10.2.4.78",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 2863.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1052.0,
+    "qtdFallEvents" : 23.0,
+    "qtdFallEventsThisMonth" : 18.0,
+    "lastDownIndex" : "2023-08-31-11-22-15",
+    "lastUpIndex" : "2023-08-31-11-22-25"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BOM-JARDIM-FORTEL-10M-343412",
+    "ip" : "10.2.4.53",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22943.0,
+    "qtdZeroPing" : 3477.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1664.0,
+    "qtdFallEvents" : 19.0,
+    "qtdFallEventsThisMonth" : 14.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-JOAO-LISBOA-FORTEL-10M-335958",
+    "ip" : "10.2.4.75",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 31,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 2871.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1063.0,
+    "qtdFallEvents" : 33.0,
+    "qtdFallEventsThisMonth" : 28.0,
+    "lastDownIndex" : "2023-08-31-11-22-15",
+    "lastUpIndex" : "2023-08-31-11-22-25"
+  }
+}, {
+  "host" : {
+    "hostname" : "CCA-BITAL-1000M-QINQ-2705",
+    "ip" : "10.3.2.2",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 10,
+    "nping" : 22951.0,
+    "qtdZeroPing" : 5014.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 3135.0,
+    "qtdFallEvents" : 903.0,
+    "qtdFallEventsThisMonth" : 852.0,
+    "lastDownIndex" : "2023-08-31-11-24-05",
+    "lastUpIndex" : "2023-08-31-11-24-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-CARUTAPERA-FORTEL-10M-343102",
+    "ip" : "10.2.4.60",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22945.0,
+    "qtdZeroPing" : 2958.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1144.0,
+    "qtdFallEvents" : 56.0,
+    "qtdFallEventsThisMonth" : 51.0,
+    "lastDownIndex" : "2023-08-31-09-44-50",
+    "lastUpIndex" : "2023-08-31-09-45-10"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ST-LUZIA-FORTEL-10M-322306",
+    "ip" : "10.2.4.110",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 48,
+    "nping" : 22929.0,
+    "qtdZeroPing" : 3479.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1536.0,
+    "qtdFallEvents" : 362.0,
+    "qtdFallEventsThisMonth" : 298.0,
+    "lastDownIndex" : "2023-08-31-10-59-53",
+    "lastUpIndex" : "2023-08-31-11-00-44"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SAO-VICENTE-FORTEL-10M-310728",
+    "ip" : "10.2.4.34",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22936.0,
+    "qtdZeroPing" : 2950.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1145.0,
+    "qtdFallEvents" : 48.0,
+    "qtdFallEventsThisMonth" : 43.0,
+    "lastDownIndex" : "2023-08-31-11-08-04",
+    "lastUpIndex" : "2023-08-31-11-08-14"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ALCANTARA-FORTEL-10M-349660",
+    "ip" : "10.2.4.44",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 48,
+    "nping" : 22952.0,
+    "qtdZeroPing" : 3141.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1280.0,
+    "qtdFallEvents" : 248.0,
+    "qtdFallEventsThisMonth" : 220.0,
+    "lastDownIndex" : "2023-08-31-10-42-32",
+    "lastUpIndex" : "2023-08-31-10-42-42"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PINDARE-MIRIM-FORTEL-10M-335954",
+    "ip" : "10.2.4.95",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22943.0,
+    "qtdZeroPing" : 2976.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1163.0,
+    "qtdFallEvents" : 105.0,
+    "qtdFallEventsThisMonth" : 99.0,
+    "lastDownIndex" : "2023-08-31-11-19-25",
+    "lastUpIndex" : "2023-08-31-11-19-35"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-COLINAS-FORTEL-10M-321094",
+    "ip" : "10.2.4.64",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22940.0,
+    "qtdZeroPing" : 2948.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1137.0,
+    "qtdFallEvents" : 101.0,
+    "qtdFallEventsThisMonth" : 94.0,
+    "lastDownIndex" : "2023-08-31-11-17-05",
+    "lastUpIndex" : "2023-08-31-11-17-25"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-MIRINZAL-FORTEL-10M-315408",
+    "ip" : "10.2.4.27",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 2886.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1077.0,
+    "qtdFallEvents" : 47.0,
+    "qtdFallEventsThisMonth" : 42.0,
+    "lastDownIndex" : "2023-08-29-09-08-44",
+    "lastUpIndex" : "2023-08-29-09-08-54"
+  }
+}, {
+  "host" : {
+    "hostname" : "SLS-PJ-CONSUMIDOR-FORTEL-20M-149307-00102",
+    "ip" : "10.2.4.121",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22259.0,
+    "qtdZeroPing" : 2875.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1068.0,
+    "qtdFallEvents" : 39.0,
+    "qtdFallEventsThisMonth" : 34.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-CURURUPU-FORTEL-10M-315876",
+    "ip" : "10.2.4.20",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22941.0,
+    "qtdZeroPing" : 2875.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1064.0,
+    "qtdFallEvents" : 36.0,
+    "qtdFallEventsThisMonth" : 31.0,
+    "lastDownIndex" : "2023-08-31-10-05-39",
+    "lastUpIndex" : "2023-08-31-10-05-49"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ITAPECURU-FORTEL-10M-307066",
+    "ip" : "10.2.4.25",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 2916.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1102.0,
+    "qtdFallEvents" : 74.0,
+    "qtdFallEventsThisMonth" : 64.0,
+    "lastDownIndex" : "2023-08-29-08-58-24",
+    "lastUpIndex" : "2023-08-29-08-58-34"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PAULO-RAMOS-FORTEL-10M-331540",
+    "ip" : "10.2.4.93",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22943.0,
+    "qtdZeroPing" : 3383.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1542.0,
+    "qtdFallEvents" : 49.0,
+    "qtdFallEventsThisMonth" : 40.0,
+    "lastDownIndex" : "2023-08-31-09-38-29",
+    "lastUpIndex" : "2023-08-31-10-56-03"
+  }
+}, {
+  "host" : {
+    "hostname" : "CCA-ESMP-BITAL-1000M-QINQ-2704",
+    "ip" : "10.3.2.3",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22953.0,
+    "qtdZeroPing" : 4857.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 2966.0,
+    "qtdFallEvents" : 948.0,
+    "qtdFallEventsThisMonth" : 887.0,
+    "lastDownIndex" : "2023-08-31-11-24-45",
+    "lastUpIndex" : "2023-08-31-11-22-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-TIMON-FORTEL-100M-294208",
+    "ip" : "10.2.4.38",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 65,
+    "nping" : 22932.0,
+    "qtdZeroPing" : 2886.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1083.0,
+    "qtdFallEvents" : 34.0,
+    "qtdFallEventsThisMonth" : 27.0,
+    "lastDownIndex" : "2023-08-31-09-44-10",
+    "lastUpIndex" : "2023-08-31-09-44-20"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-TUNTUM-FORTEL-10M-322678",
+    "ip" : "10.2.4.115",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22934.0,
+    "qtdZeroPing" : 8478.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 6673.0,
+    "qtdFallEvents" : 25.0,
+    "qtdFallEventsThisMonth" : 20.0,
+    "lastDownIndex" : "2023-08-31-10-23-40",
+    "lastUpIndex" : "2023-08-31-10-23-50"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BEQUIMAO-FORTEL-10M-328068",
+    "ip" : "10.2.4.16",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 31,
+    "nping" : 22949.0,
+    "qtdZeroPing" : 3078.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1259.0,
+    "qtdFallEvents" : 50.0,
+    "qtdFallEventsThisMonth" : 45.0,
+    "lastDownIndex" : "2023-08-31-11-22-15",
+    "lastUpIndex" : "2023-08-31-11-22-25"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PASSAGEM-FRANCA-FORTEL-10M-321240",
+    "ip" : "10.2.4.91",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22943.0,
+    "qtdZeroPing" : 3199.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1386.0,
+    "qtdFallEvents" : 41.0,
+    "qtdFallEventsThisMonth" : 36.0,
+    "lastDownIndex" : "2023-08-29-08-38-22",
+    "lastUpIndex" : "2023-08-29-08-38-32"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-MAGALHAES-FORTEL-10M-342108",
+    "ip" : "10.2.4.79",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22946.0,
+    "qtdZeroPing" : 4271.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 2452.0,
+    "qtdFallEvents" : 120.0,
+    "qtdFallEventsThisMonth" : 112.0,
+    "lastDownIndex" : "2023-08-31-11-16-35",
+    "lastUpIndex" : "2023-08-31-11-16-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-OLINDA-NOVA-FORTEL-10M-310762",
+    "ip" : "10.2.4.28",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22941.0,
+    "qtdZeroPing" : 10109.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 8299.0,
+    "qtdFallEvents" : 35.0,
+    "qtdFallEventsThisMonth" : 30.0,
+    "lastDownIndex" : "2023-08-21-11-42-11",
+    "lastUpIndex" : "2023-08-21-11-42-21"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-MARACACUME-FORTEL-10M-308310",
+    "ip" : "10.2.4.81",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22943.0,
+    "qtdZeroPing" : 2876.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1062.0,
+    "qtdFallEvents" : 29.0,
+    "qtdFallEventsThisMonth" : 23.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PRESIDENTE-DUTRA-FORTEL-20M-329638",
+    "ip" : "10.2.4.99",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22936.0,
+    "qtdZeroPing" : 4342.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 2527.0,
+    "qtdFallEvents" : 221.0,
+    "qtdFallEventsThisMonth" : 207.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-LAGO-DA-PEDRA-FORTEL-10M-336060",
+    "ip" : "10.2.4.77",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22946.0,
+    "qtdZeroPing" : 3713.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1887.0,
+    "qtdFallEvents" : 356.0,
+    "qtdFallEventsThisMonth" : 344.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-VITORIA-MEARIM-FORTEL-10M-305014",
+    "ip" : "10.2.4.43",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 2916.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1110.0,
+    "qtdFallEvents" : 77.0,
+    "qtdFallEventsThisMonth" : 72.0,
+    "lastDownIndex" : "2023-08-24-08-54-38",
+    "lastUpIndex" : "2023-08-24-08-54-48"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-CAROLINA-FORTEL-10M-342164",
+    "ip" : "10.2.4.59",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 48,
+    "nping" : 22940.0,
+    "qtdZeroPing" : 2972.0,
+    "qtdPingsThisMonth" : 19726.0,
+    "qtdZeroPingsThisMonth" : 1150.0,
+    "qtdFallEvents" : 44.0,
+    "qtdFallEventsThisMonth" : 34.0,
+    "lastDownIndex" : "2023-08-31-09-44-10",
+    "lastUpIndex" : "2023-08-31-09-44-20"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ST-INES-FORTEL-20M-288108",
+    "ip" : "10.2.4.36",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22934.0,
+    "qtdZeroPing" : 3097.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1293.0,
+    "qtdFallEvents" : 204.0,
+    "qtdFallEventsThisMonth" : 198.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PGJ-INTERNET-BITAL-100M-QINQ-0664-LINK1",
+    "ip" : "45.180.218.216",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22953.0,
+    "qtdZeroPing" : 1580.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 57.0,
+    "qtdFallEvents" : 204.0,
+    "qtdFallEventsThisMonth" : 57.0,
+    "lastDownIndex" : "2023-08-31-11-17-05",
+    "lastUpIndex" : "2023-08-31-11-17-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PGJ-INTERNET-BITAL-100M-QINQ-0664-LINK2",
+    "ip" : "45.180.218.216",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22953.0,
+    "qtdZeroPing" : 1586.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 55.0,
+    "qtdFallEvents" : 195.0,
+    "qtdFallEventsThisMonth" : 54.0,
+    "lastDownIndex" : "2023-08-31-11-17-05",
+    "lastUpIndex" : "2023-08-31-11-17-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-TUTOIA-FORTEL-10M-315848",
+    "ip" : "10.2.4.39",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 5880.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 4071.0,
+    "qtdFallEvents" : 20.0,
+    "qtdFallEventsThisMonth" : 14.0,
+    "lastDownIndex" : "2023-08-23-08-17-17",
+    "lastUpIndex" : "2023-08-24-09-25-40"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ST-HELENA-FORTEL-10M-339028",
+    "ip" : "10.2.4.109",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 30,
+    "nping" : 22930.0,
+    "qtdZeroPing" : 2998.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1197.0,
+    "qtdFallEvents" : 62.0,
+    "qtdFallEventsThisMonth" : 57.0,
+    "lastDownIndex" : "2023-08-31-11-22-15",
+    "lastUpIndex" : "2023-08-31-11-22-25"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ZE-DOCA-FORTEL-10M-345884",
+    "ip" : "10.2.4.118",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 3578.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1677.0,
+    "qtdFallEvents" : 24.0,
+    "qtdFallEventsThisMonth" : 18.0,
+    "lastDownIndex" : "2023-08-29-10-27-30",
+    "lastUpIndex" : "2023-08-29-10-27-40"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-MATINHA-FORTEL-10M-313164",
+    "ip" : "10.2.4.26",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22944.0,
+    "qtdZeroPing" : 2916.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1102.0,
+    "qtdFallEvents" : 72.0,
+    "qtdFallEventsThisMonth" : 66.0,
+    "lastDownIndex" : "2023-08-23-09-31-42",
+    "lastUpIndex" : "2023-08-23-09-31-52"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-IGARAPE-GRANDE-FORTEL-10M-331010",
+    "ip" : "10.2.4.70",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22945.0,
+    "qtdZeroPing" : 3392.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1567.0,
+    "qtdFallEvents" : 457.0,
+    "qtdFallEventsThisMonth" : 443.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PGJ-INTERNET-OI-300M-SLS-5301648",
+    "ip" : "200.149.151.169",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 10,
+    "nping" : 22980.0,
+    "qtdZeroPing" : 3735.0,
+    "qtdPingsThisMonth" : 19736.0,
+    "qtdZeroPingsThisMonth" : 3055.0,
+    "qtdFallEvents" : 1201.0,
+    "qtdFallEventsThisMonth" : 942.0,
+    "lastDownIndex" : "2023-08-31-11-22-05",
+    "lastUpIndex" : "2023-08-31-11-22-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-CANDIDO-MENDES-FORTEL-10M-341998",
+    "ip" : "10.2.4.58",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22945.0,
+    "qtdZeroPing" : 2906.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1091.0,
+    "qtdFallEvents" : 53.0,
+    "qtdFallEventsThisMonth" : 47.0,
+    "lastDownIndex" : "2023-08-31-11-10-04",
+    "lastUpIndex" : "2023-08-31-11-10-14"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SAO-JOAO-BATISTA-FORTEL-10M-282360",
+    "ip" : "10.2.4.33",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 2866.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1057.0,
+    "qtdFallEvents" : 30.0,
+    "qtdFallEventsThisMonth" : 23.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PEDREIRAS-FORTEL-20M-342256",
+    "ip" : "10.2.4.94",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22941.0,
+    "qtdZeroPing" : 3499.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1677.0,
+    "qtdFallEvents" : 526.0,
+    "qtdFallEventsThisMonth" : 511.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ARARI-FORTEL-10M-302632",
+    "ip" : "10.2.4.12",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22949.0,
+    "qtdZeroPing" : 2928.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1109.0,
+    "qtdFallEvents" : 76.0,
+    "qtdFallEventsThisMonth" : 70.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-CHAPADINHA-FORTEL-20M-319638",
+    "ip" : "10.2.4.19",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 4341.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 2531.0,
+    "qtdFallEvents" : 142.0,
+    "qtdFallEventsThisMonth" : 136.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-POCAO-PEDRAS-FORTEL-10M-343744",
+    "ip" : "10.2.4.97",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 2874.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1065.0,
+    "qtdFallEvents" : 38.0,
+    "qtdFallEventsThisMonth" : 32.0,
+    "lastDownIndex" : "2023-08-29-10-18-59",
+    "lastUpIndex" : "2023-08-29-10-19-09"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-MONTES-ALTOS-FORTEL-10M-336538",
+    "ip" : "10.2.4.85",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 4097.0,
+    "qtdPingsThisMonth" : 19730.0,
+    "qtdZeroPingsThisMonth" : 2229.0,
+    "qtdFallEvents" : 135.0,
+    "qtdFallEventsThisMonth" : 91.0,
+    "lastDownIndex" : "2023-08-31-11-00-24",
+    "lastUpIndex" : "2023-08-31-11-00-34"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BARAO-GRAJAU-FORTEL-10M-345594",
+    "ip" : "10.2.4.51",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22947.0,
+    "qtdZeroPing" : 3168.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1347.0,
+    "qtdFallEvents" : 118.0,
+    "qtdFallEventsThisMonth" : 111.0,
+    "lastDownIndex" : "2023-08-30-07-57-35",
+    "lastUpIndex" : "2023-08-30-08-27-38"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SAO-PEDRO-AGUA-FORTEL-10M-343450",
+    "ip" : "10.2.4.106",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22933.0,
+    "qtdZeroPing" : 2870.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1068.0,
+    "qtdFallEvents" : 35.0,
+    "qtdFallEventsThisMonth" : 30.0,
+    "lastDownIndex" : "2023-08-31-10-23-40",
+    "lastUpIndex" : "2023-08-31-10-23-50"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BURITICUPU-FORTEL-20M-331014",
+    "ip" : "10.2.4.57",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22268.0,
+    "qtdZeroPing" : 3273.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1459.0,
+    "qtdFallEvents" : 25.0,
+    "qtdFallEventsThisMonth" : 21.0,
+    "lastDownIndex" : "2023-08-31-09-59-09",
+    "lastUpIndex" : "2023-08-31-09-59-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ESTREITO-FORTEL-10M-335962",
+    "ip" : "10.2.4.67",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 48,
+    "nping" : 22940.0,
+    "qtdZeroPing" : 5737.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 3923.0,
+    "qtdFallEvents" : 48.0,
+    "qtdFallEventsThisMonth" : 40.0,
+    "lastDownIndex" : "2023-08-31-09-44-10",
+    "lastUpIndex" : "2023-08-31-09-44-20"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ST-QUITERIA-FORTEL-10M-338666",
+    "ip" : "10.2.4.112",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22931.0,
+    "qtdZeroPing" : 4943.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 3133.0,
+    "qtdFallEvents" : 548.0,
+    "qtdFallEventsThisMonth" : 535.0,
+    "lastDownIndex" : "2023-08-31-11-19-55",
+    "lastUpIndex" : "2023-08-31-11-20-05"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-CAXIAS-DISTRITAL-FORTEL-10M-203815-00006",
+    "ip" : "10.2.4.119",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 65,
+    "nping" : 22943.0,
+    "qtdZeroPing" : 2869.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1053.0,
+    "qtdFallEvents" : 25.0,
+    "qtdFallEventsThisMonth" : 18.0,
+    "lastDownIndex" : "2023-08-31-09-44-10",
+    "lastUpIndex" : "2023-08-31-09-44-20"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-MIRADOR-FORTEL-10M-321534",
+    "ip" : "10.2.4.83",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 2906.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1090.0,
+    "qtdFallEvents" : 64.0,
+    "qtdFallEventsThisMonth" : 54.0,
+    "lastDownIndex" : "2023-08-29-09-43-47",
+    "lastUpIndex" : "2023-08-29-09-43-57"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ALTO-PARNAIBA-FORTEL-10M-338866",
+    "ip" : "10.2.4.45",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22948.0,
+    "qtdZeroPing" : 3139.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1285.0,
+    "qtdFallEvents" : 202.0,
+    "qtdFallEventsThisMonth" : 169.0,
+    "lastDownIndex" : "2023-08-31-11-22-15",
+    "lastUpIndex" : "2023-08-31-11-22-25"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SAO-BENTO-FORTEL-10M-313970",
+    "ip" : "10.2.4.31",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 30,
+    "nping" : 22936.0,
+    "qtdZeroPing" : 3345.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1540.0,
+    "qtdFallEvents" : 40.0,
+    "qtdFallEventsThisMonth" : 35.0,
+    "lastDownIndex" : "2023-08-30-08-26-28",
+    "lastUpIndex" : "2023-08-30-08-26-38"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-VIANA-FORTEL-10M-308022",
+    "ip" : "10.2.4.42",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22936.0,
+    "qtdZeroPing" : 2886.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1075.0,
+    "qtdFallEvents" : 49.0,
+    "qtdFallEventsThisMonth" : 41.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-RAPOSA-BITAL-100M-QINQ-2707",
+    "ip" : "10.2.2.11",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 10,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 4513.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 2686.0,
+    "qtdFallEvents" : 964.0,
+    "qtdFallEventsThisMonth" : 948.0,
+    "lastDownIndex" : "2023-08-31-11-24-05",
+    "lastUpIndex" : "2023-08-31-11-24-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PGJ-INTERNET-MOB-600M-SLS-149307-00001",
+    "ip" : "201.20.122.238",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22923.0,
+    "qtdZeroPing" : 19684.0,
+    "qtdPingsThisMonth" : 19711.0,
+    "qtdZeroPingsThisMonth" : 16529.0,
+    "qtdFallEvents" : 15.0,
+    "qtdFallEventsThisMonth" : 14.0,
+    "lastDownIndex" : "2023-08-31-11-02-04",
+    "lastUpIndex" : "2023-08-31-11-02-14"
+  }
+}, {
+  "host" : {
+    "hostname" : "SLS-DIVINEIA-BITAL-100M-QINQ-2707",
+    "ip" : "10.2.2.123",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22930.0,
+    "qtdZeroPing" : 6318.0,
+    "qtdPingsThisMonth" : 19727.0,
+    "qtdZeroPingsThisMonth" : 4301.0,
+    "qtdFallEvents" : 1897.0,
+    "qtdFallEventsThisMonth" : 1756.0,
+    "lastDownIndex" : "2023-08-31-11-22-05",
+    "lastUpIndex" : "2023-08-31-11-22-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-AMARANTE-FORTEL-10M-336152",
+    "ip" : "10.2.4.46 ",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22949.0,
+    "qtdZeroPing" : 3688.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1812.0,
+    "qtdFallEvents" : 166.0,
+    "qtdFallEventsThisMonth" : 123.0,
+    "lastDownIndex" : "2023-08-31-09-38-29",
+    "lastUpIndex" : "2023-08-29-08-35-02"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-MONCAO-FORTEL-10M-321478",
+    "ip" : "10.2.4.84",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 3587.0,
+    "qtdPingsThisMonth" : 19731.0,
+    "qtdZeroPingsThisMonth" : 1773.0,
+    "qtdFallEvents" : 111.0,
+    "qtdFallEventsThisMonth" : 103.0,
+    "lastDownIndex" : "2023-08-31-10-51-02",
+    "lastUpIndex" : "2023-08-31-10-51-12"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-CANTANHEDE-FORTEL-10M-310768",
+    "ip" : "10.2.4.124",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 3339.0,
+    "qtdZeroPing" : 13.0,
+    "qtdPingsThisMonth" : 3339.0,
+    "qtdZeroPingsThisMonth" : 13.0,
+    "qtdFallEvents" : 2.0,
+    "qtdFallEventsThisMonth" : 2.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PINHEIRO-FORTEL-20M-317142",
+    "ip" : "10.2.4.30",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 2949.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1139.0,
+    "qtdFallEvents" : 66.0,
+    "qtdFallEventsThisMonth" : 60.0,
+    "lastDownIndex" : "2023-08-31-10-04-39",
+    "lastUpIndex" : "2023-08-31-10-04-49"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-TIMBIRAS-FORTEL-10M-323914",
+    "ip" : "10.2.4.113",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22932.0,
+    "qtdZeroPing" : 3032.0,
+    "qtdPingsThisMonth" : 19731.0,
+    "qtdZeroPingsThisMonth" : 1127.0,
+    "qtdFallEvents" : 135.0,
+    "qtdFallEventsThisMonth" : 74.0,
+    "lastDownIndex" : "2023-08-31-10-59-53",
+    "lastUpIndex" : "2023-08-31-11-00-34"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PASTOS-BONS-FORTEL-10M-327924",
+    "ip" : "10.2.4.92",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 3896.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 2083.0,
+    "qtdFallEvents" : 40.0,
+    "qtdFallEventsThisMonth" : 35.0,
+    "lastDownIndex" : "2023-08-31-10-23-40",
+    "lastUpIndex" : "2023-08-31-10-23-50"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-DOM-PEDRO-FORTEL-10M-310738",
+    "ip" : "10.2.4.21",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22941.0,
+    "qtdZeroPing" : 2955.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1136.0,
+    "qtdFallEvents" : 110.0,
+    "qtdFallEventsThisMonth" : 99.0,
+    "lastDownIndex" : "2023-08-31-10-12-30",
+    "lastUpIndex" : "2023-08-31-10-12-40"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-CODO-FORTEL-100M-328042",
+    "ip" : "10.2.4.62",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22263.0,
+    "qtdZeroPing" : 8187.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 6360.0,
+    "qtdFallEvents" : 395.0,
+    "qtdFallEventsThisMonth" : 380.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SLZ-GONZAGA-FORTEL-10M-317438",
+    "ip" : "10.2.4.35",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 3335.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1521.0,
+    "qtdFallEvents" : 365.0,
+    "qtdFallEventsThisMonth" : 355.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-AZEITAO-FORTEL-10M-339642",
+    "ip" : "10.2.4.49",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22947.0,
+    "qtdZeroPing" : 2864.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1048.0,
+    "qtdFallEvents" : 20.0,
+    "qtdFallEventsThisMonth" : 15.0,
+    "lastDownIndex" : "2023-08-28-10-12-24",
+    "lastUpIndex" : "2023-08-28-10-12-34"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BALSAS-FORTEL-20M-314146",
+    "ip" : "10.2.4.14",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22949.0,
+    "qtdZeroPing" : 4738.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 2918.0,
+    "qtdFallEvents" : 39.0,
+    "qtdFallEventsThisMonth" : 34.0,
+    "lastDownIndex" : "2023-08-31-10-23-40",
+    "lastUpIndex" : "2023-08-31-10-23-50"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ROSARIO-FORTEL-10M-320142",
+    "ip" : "10.2.4.101",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 2908.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1098.0,
+    "qtdFallEvents" : 36.0,
+    "qtdFallEventsThisMonth" : 30.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PORTO-FRANCO-FORTEL-10M-342098",
+    "ip" : "10.2.4.98",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 48,
+    "nping" : 22941.0,
+    "qtdZeroPing" : 5729.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 3916.0,
+    "qtdFallEvents" : 39.0,
+    "qtdFallEventsThisMonth" : 33.0,
+    "lastDownIndex" : "2023-08-31-09-44-10",
+    "lastUpIndex" : "2023-08-31-09-44-20"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-TURIACU-FORTEL-10M-321156",
+    "ip" : "10.2.4.116",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 32,
+    "nping" : 22936.0,
+    "qtdZeroPing" : 3093.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1283.0,
+    "qtdFallEvents" : 55.0,
+    "qtdFallEventsThisMonth" : 47.0,
+    "lastDownIndex" : "2023-08-31-10-03-19",
+    "lastUpIndex" : "2023-08-31-10-03-29"
+  }
+}, {
+  "host" : {
+    "hostname" : "SLS-ALMOXARIFADO-BITAL-100M-QINQ-2707",
+    "ip" : "10.2.2.10",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 4644.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 2816.0,
+    "qtdFallEvents" : 966.0,
+    "qtdFallEventsThisMonth" : 951.0,
+    "lastDownIndex" : "2023-08-31-11-24-45",
+    "lastUpIndex" : "2023-08-31-11-22-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-IMPERATRIZ-ANEXO-FORTEL-10M-203815-00005",
+    "ip" : "10.2.4.72",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 48,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 2902.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1091.0,
+    "qtdFallEvents" : 63.0,
+    "qtdFallEventsThisMonth" : 57.0,
+    "lastDownIndex" : "2023-08-31-10-03-29",
+    "lastUpIndex" : "2023-08-31-10-03-39"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ICATU-FORTEL-10M-317144",
+    "ip" : "10.2.4.24",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 2882.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1069.0,
+    "qtdFallEvents" : 26.0,
+    "qtdFallEventsThisMonth" : 20.0,
+    "lastDownIndex" : "2023-08-29-07-58-09",
+    "lastUpIndex" : "2023-08-29-07-58-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BURITI-FORTEL-10M-342044",
+    "ip" : "10.2.4.55",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 3860.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 2017.0,
+    "qtdFallEvents" : 747.0,
+    "qtdFallEventsThisMonth" : 721.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PACO-LUMIAR-BITAL-100M-QINQ-2707",
+    "ip" : "10.2.2.15",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22940.0,
+    "qtdZeroPing" : 6051.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 4218.0,
+    "qtdFallEvents" : 993.0,
+    "qtdFallEventsThisMonth" : 976.0,
+    "lastDownIndex" : "2023-08-31-11-24-45",
+    "lastUpIndex" : "2023-08-31-11-22-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ITZ-CASA-MULHER-FORTEL-10M-340782",
+    "ip" : "10.2.4.74",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 48,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 2860.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1052.0,
+    "qtdFallEvents" : 23.0,
+    "qtdFallEventsThisMonth" : 18.0,
+    "lastDownIndex" : "2023-08-31-09-44-10",
+    "lastUpIndex" : "2023-08-31-09-44-20"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-VITORINO-FORTEL-20M-344288",
+    "ip" : "10.2.4.117",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 15,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 3669.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1854.0,
+    "qtdFallEvents" : 315.0,
+    "qtdFallEventsThisMonth" : 306.0,
+    "lastDownIndex" : "2023-08-31-11-04-04",
+    "lastUpIndex" : "2023-08-31-11-04-14"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-RIBAMAR-BITAL-100M-QINQ-2707",
+    "ip" : "10.2.2.12",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 4433.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 2604.0,
+    "qtdFallEvents" : 980.0,
+    "qtdFallEventsThisMonth" : 964.0,
+    "lastDownIndex" : "2023-08-31-11-24-45",
+    "lastUpIndex" : "2023-08-31-11-22-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-EUGENIO-BARROS-FORTEL-10M-343742",
+    "ip" : "10.2.4.68",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 5,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 3388.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1572.0,
+    "qtdFallEvents" : 36.0,
+    "qtdFallEventsThisMonth" : 29.0,
+    "lastDownIndex" : "2023-08-30-08-01-46",
+    "lastUpIndex" : "2023-08-30-08-01-56"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-VARGEM-GRANDE-FORTEL-10M-312452",
+    "ip" : "10.2.4.41",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 21,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 3417.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1610.0,
+    "qtdFallEvents" : 36.0,
+    "qtdFallEventsThisMonth" : 31.0,
+    "lastDownIndex" : "2023-08-29-10-18-09",
+    "lastUpIndex" : "2023-08-29-10-18-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ESPERANTINOPOLIS-FORTEL-10M-342002",
+    "ip" : "10.2.4.66",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 5,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 3567.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1067.0,
+    "qtdFallEvents" : 42.0,
+    "qtdFallEventsThisMonth" : 32.0,
+    "lastDownIndex" : "2023-08-31-10-26-21",
+    "lastUpIndex" : "2023-08-31-10-26-31"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-MANGABEIRAS-FORTEL-10M-339390",
+    "ip" : "10.2.4.80",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 20,
+    "nping" : 22945.0,
+    "qtdZeroPing" : 2859.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1045.0,
+    "qtdFallEvents" : 17.0,
+    "qtdFallEventsThisMonth" : 12.0,
+    "lastDownIndex" : "2023-08-31-11-22-15",
+    "lastUpIndex" : "2023-08-31-11-22-25"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-MATOES-FORTEL-10M-341718",
+    "ip" : "10.2.4.82",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 5,
+    "nping" : 22944.0,
+    "qtdZeroPing" : 3782.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1950.0,
+    "qtdFallEvents" : 681.0,
+    "qtdFallEventsThisMonth" : 665.0,
+    "lastDownIndex" : "2023-08-31-11-19-55",
+    "lastUpIndex" : "2023-08-31-11-20-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "SLS-CASA-MULHER-BITAL-100M-QINQ-2707",
+    "ip" : "10.2.2.14",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 4732.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 2904.0,
+    "qtdFallEvents" : 889.0,
+    "qtdFallEventsThisMonth" : 874.0,
+    "lastDownIndex" : "2023-08-31-11-24-45",
+    "lastUpIndex" : "2023-08-31-11-24-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ACAILANDIA-FORTEL-20M-310752",
+    "ip" : "10.2.4.10",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22953.0,
+    "qtdZeroPing" : 4460.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 2628.0,
+    "qtdFallEvents" : 69.0,
+    "qtdFallEventsThisMonth" : 59.0,
+    "lastDownIndex" : "2023-08-31-10-23-40",
+    "lastUpIndex" : "2023-08-31-10-23-50"
+  }
+}, {
+  "host" : {
+    "hostname" : "PGJ-CONC-FORTEL-2300M-285464",
+    "ip" : "10.2.4.2",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22950.0,
+    "qtdZeroPing" : 8889.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 6950.0,
+    "qtdFallEvents" : 3442.0,
+    "qtdFallEventsThisMonth" : 3337.0,
+    "lastDownIndex" : "2023-08-31-11-24-45",
+    "lastUpIndex" : "2023-08-31-11-24-25"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SAO-FRANCISCO-MA-FORTEL-10M-343502",
+    "ip" : "10.2.4.103",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22935.0,
+    "qtdZeroPing" : 2859.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1053.0,
+    "qtdFallEvents" : 27.0,
+    "qtdFallEventsThisMonth" : 20.0,
+    "lastDownIndex" : "2023-08-28-10-23-55",
+    "lastUpIndex" : "2023-08-28-10-24-05"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-OLHO-DAGUA-FORTEL-10M-333928",
+    "ip" : "10.2.4.88",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 3821.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 2000.0,
+    "qtdFallEvents" : 311.0,
+    "qtdFallEventsThisMonth" : 299.0,
+    "lastDownIndex" : "2023-08-31-09-38-29",
+    "lastUpIndex" : "2023-08-30-08-36-09"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BACABAL-FORTEL-20M-307264",
+    "ip" : "10.2.4.13",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 5,
+    "nping" : 22947.0,
+    "qtdZeroPing" : 4108.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 2278.0,
+    "qtdFallEvents" : 253.0,
+    "qtdFallEventsThisMonth" : 237.0,
+    "lastDownIndex" : "2023-08-31-11-04-24",
+    "lastUpIndex" : "2023-08-31-11-04-34"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-MORROS-FORTEL-10M-317150",
+    "ip" : "10.2.4.86",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 2959.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1138.0,
+    "qtdFallEvents" : 41.0,
+    "qtdFallEventsThisMonth" : 26.0,
+    "lastDownIndex" : "2023-08-24-10-11-54",
+    "lastUpIndex" : "2023-08-24-10-12-04"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SAO-DOMINGOS-MA-FORTEL-10M-149307-00007",
+    "ip" : "10.2.4.102",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22933.0,
+    "qtdZeroPing" : 10690.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 8885.0,
+    "qtdFallEvents" : 21.0,
+    "qtdFallEventsThisMonth" : 15.0,
+    "lastDownIndex" : "2023-08-31-10-23-40",
+    "lastUpIndex" : "2023-08-31-10-23-50"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-NUNES-FREIRE-FORTEL-10M-321804",
+    "ip" : "10.2.4.87",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 2871.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1063.0,
+    "qtdFallEvents" : 33.0,
+    "qtdFallEventsThisMonth" : 28.0,
+    "lastDownIndex" : "2023-08-31-10-03-49",
+    "lastUpIndex" : "2023-08-31-10-03-59"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ARAME-FORTEL-10M-342342",
+    "ip" : "10.2.4.48",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22949.0,
+    "qtdZeroPing" : 3530.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1712.0,
+    "qtdFallEvents" : 30.0,
+    "qtdFallEventsThisMonth" : 25.0,
+    "lastDownIndex" : "2023-08-31-10-00-09",
+    "lastUpIndex" : "2023-08-31-10-00-19"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ST-RITA-FORTEL-10M-320144",
+    "ip" : "10.2.4.37",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22928.0,
+    "qtdZeroPing" : 2923.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 1123.0,
+    "qtdFallEvents" : 47.0,
+    "qtdFallEventsThisMonth" : 41.0,
+    "lastDownIndex" : "2023-08-31-10-09-30",
+    "lastUpIndex" : "2023-08-31-10-10-30"
+  }
+}, {
+  "host" : {
+    "hostname" : "SLS-PJIJ-CAJAZEIRAS-BITAL-100M-QINQ-2707",
+    "ip" : "10.2.2.13",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 4683.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 2855.0,
+    "qtdFallEvents" : 897.0,
+    "qtdFallEventsThisMonth" : 884.0,
+    "lastDownIndex" : "2023-08-31-11-24-45",
+    "lastUpIndex" : "2023-08-31-11-22-15"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-PIO-XII-FORTEL-10M-341790",
+    "ip" : "10.2.4.96",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 5,
+    "nping" : 22942.0,
+    "qtdZeroPing" : 2944.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1130.0,
+    "qtdFallEvents" : 70.0,
+    "qtdFallEventsThisMonth" : 62.0,
+    "lastDownIndex" : "2023-08-31-10-26-21",
+    "lastUpIndex" : "2023-08-31-10-26-31"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ST-ANTONIO-LOPES-FORTEL-10M-317436",
+    "ip" : "10.2.4.108",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 5,
+    "nping" : 22933.0,
+    "qtdZeroPing" : 2882.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1078.0,
+    "qtdFallEvents" : 48.0,
+    "qtdFallEventsThisMonth" : 41.0,
+    "lastDownIndex" : "2023-08-31-10-26-21",
+    "lastUpIndex" : "2023-08-31-10-26-31"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BREJO-FORTEL-10M-340212",
+    "ip" : "10.2.4.54",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 5,
+    "nping" : 22943.0,
+    "qtdZeroPing" : 4191.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 2370.0,
+    "qtdFallEvents" : 46.0,
+    "qtdFallEventsThisMonth" : 35.0,
+    "lastDownIndex" : "2023-08-31-10-26-21",
+    "lastUpIndex" : "2023-08-31-10-26-31"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SAO-BERNARDO-FORTEL-10M-316860",
+    "ip" : "10.2.4.32",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 5,
+    "nping" : 22938.0,
+    "qtdZeroPing" : 4196.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 2382.0,
+    "qtdFallEvents" : 56.0,
+    "qtdFallEventsThisMonth" : 45.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-CEDRAL-FORTEL-10M-314636",
+    "ip" : "10.2.4.18",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 2913.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1100.0,
+    "qtdFallEvents" : 64.0,
+    "qtdFallEventsThisMonth" : 55.0,
+    "lastDownIndex" : "2023-08-31-10-00-59",
+    "lastUpIndex" : "2023-08-31-10-01-09"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ST-LUZIA-PARUA-FORTEL-10M-149307-00101",
+    "ip" : "10.2.4.120",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 20,
+    "nping" : 22250.0,
+    "qtdZeroPing" : 2882.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1086.0,
+    "qtdFallEvents" : 48.0,
+    "qtdFallEventsThisMonth" : 44.0,
+    "lastDownIndex" : "2023-08-31-10-05-39",
+    "lastUpIndex" : "2023-08-31-10-05-49"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BACURI-FORTEL-10M-345286",
+    "ip" : "10.2.4.50",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22945.0,
+    "qtdZeroPing" : 2923.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1106.0,
+    "qtdFallEvents" : 52.0,
+    "qtdFallEventsThisMonth" : 45.0,
+    "lastDownIndex" : "2023-08-31-10-54-13",
+    "lastUpIndex" : "2023-08-31-10-54-23"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-TIMON-SHOPPING-FORTEL-10M-341054",
+    "ip" : "10.2.4.114",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 55,
+    "nping" : 22933.0,
+    "qtdZeroPing" : 2847.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1042.0,
+    "qtdFallEvents" : 14.0,
+    "qtdFallEventsThisMonth" : 8.0,
+    "lastDownIndex" : "2023-08-31-09-44-10",
+    "lastUpIndex" : "2023-08-31-09-44-20"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ANAJATUBA-FORTEL-10M-294700",
+    "ip" : "10.2.4.11",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 20,
+    "nping" : 22949.0,
+    "qtdZeroPing" : 2878.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1060.0,
+    "qtdFallEvents" : 27.0,
+    "qtdFallEventsThisMonth" : 22.0,
+    "lastDownIndex" : "2023-08-21-11-43-41",
+    "lastUpIndex" : "2023-08-21-11-43-51"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-URBANO-SANTOS-FORTEL-10M-305036",
+    "ip" : "10.2.4.40",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22935.0,
+    "qtdZeroPing" : 4157.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 2348.0,
+    "qtdFallEvents" : 21.0,
+    "qtdFallEventsThisMonth" : 13.0,
+    "lastDownIndex" : "2023-08-31-10-55-03",
+    "lastUpIndex" : "2023-08-31-10-55-13"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-ST-LUZIA-PARUA-FORTEL-10M-345676",
+    "ip" : "10.2.4.111",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22928.0,
+    "qtdZeroPing" : 9187.0,
+    "qtdPingsThisMonth" : 19731.0,
+    "qtdZeroPingsThisMonth" : 7387.0,
+    "qtdFallEvents" : 40.0,
+    "qtdFallEventsThisMonth" : 35.0,
+    "lastDownIndex" : "2023-08-22-09-26-56",
+    "lastUpIndex" : "2023-08-21-08-25-26"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-COELHO-NETO-FORTEL-10M-340282",
+    "ip" : "10.2.4.63",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 0,
+    "nping" : 22939.0,
+    "qtdZeroPing" : 7060.0,
+    "qtdPingsThisMonth" : 19732.0,
+    "qtdZeroPingsThisMonth" : 5228.0,
+    "qtdFallEvents" : 490.0,
+    "qtdFallEventsThisMonth" : 471.0,
+    "lastDownIndex" : "2023-08-31-09-38-29",
+    "lastUpIndex" : "2023-08-30-08-28-38"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SAO-MATEUS-FORTEL-10M-339356",
+    "ip" : "10.2.4.105",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 5,
+    "nping" : 22935.0,
+    "qtdZeroPing" : 3676.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1861.0,
+    "qtdFallEvents" : 426.0,
+    "qtdFallEventsThisMonth" : 414.0,
+    "lastDownIndex" : "2023-08-31-11-21-35",
+    "lastUpIndex" : "2023-08-31-11-21-45"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-BARRA-CORDA-FORTEL-20M-329708",
+    "ip" : "10.2.4.52",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 5,
+    "nping" : 22949.0,
+    "qtdZeroPing" : 2958.0,
+    "qtdPingsThisMonth" : 19734.0,
+    "qtdZeroPingsThisMonth" : 1140.0,
+    "qtdFallEvents" : 80.0,
+    "qtdFallEventsThisMonth" : 75.0,
+    "lastDownIndex" : "2023-08-31-11-22-15",
+    "lastUpIndex" : "2023-08-31-11-22-25"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-SENADOR-LA-ROCQUE-FORTEL-10M-335940",
+    "ip" : "10.2.4.107",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 55,
+    "nping" : 22933.0,
+    "qtdZeroPing" : 6279.0,
+    "qtdPingsThisMonth" : 19730.0,
+    "qtdZeroPingsThisMonth" : 4436.0,
+    "qtdFallEvents" : 73.0,
+    "qtdFallEventsThisMonth" : 60.0,
+    "lastDownIndex" : "2023-08-31-11-22-15",
+    "lastUpIndex" : "2023-08-31-11-22-25"
+  }
+}, {
+  "host" : {
+    "hostname" : "PJ-GUIMARAES-FORTEL-10M-317330",
+    "ip" : "10.2.4.22",
+    "timestamp" : "2023-08-31-11-24-45",
+    "responseTime" : 22,
+    "nping" : 22937.0,
+    "qtdZeroPing" : 2880.0,
+    "qtdPingsThisMonth" : 19733.0,
+    "qtdZeroPingsThisMonth" : 1073.0,
+    "qtdFallEvents" : 43.0,
+    "qtdFallEventsThisMonth" : 38.0,
+    "lastDownIndex" : "2023-08-31-11-22-15",
+    "lastUpIndex" : "2023-08-31-11-22-25"
+  }
+} ]

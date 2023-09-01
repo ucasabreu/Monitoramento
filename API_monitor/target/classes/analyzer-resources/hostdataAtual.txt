@@ -1,0 +1,134 @@
+Host                                       |State|Time       |Falls|Availab|rTime |AvailabTotal|zPingsMes|PingTotal|PingsMes|
+-----------------------------------------------------------------------------------------------------------------
+CCA-BITAL-1000M-QINQ-2705                  |UP   | 0d00h02min|   32| 95,13%|   2ms|  95,13%|    35|   719|   719|
+CCA-ESMP-BITAL-1000M-QINQ-2704             |UP   | 0d00h03min|   46| 93,18%|   2ms|  93,18%|    49|   719|   719|
+PGJ-CONC-FORTEL-2300M-285464               |UP   | 6d00h48min|   87| 86,51%|   2ms|  86,51%|    97|   719|   719|
+PGJ-INTERNET-BITAL-100M-QINQ-0664-LINK1    |UP   |12d22h40min|    5| 99,30%|  29ms|  99,30%|     5|   719|   719|
+PGJ-INTERNET-BITAL-100M-QINQ-0664-LINK2    |UP   |12d22h40min|    5| 99,30%|  29ms|  99,30%|     5|   719|   719|
+PGJ-INTERNET-MOB-600M-SLS-149307-00001     |DOWN |12d23h47min|    0|  0,14%|   0ms|   0,14%|   716|   717|   717|
+PGJ-INTERNET-OI-300M-SLS-5301648           |UP   |12d22h19min|   63| 89,57%|   1ms|  89,57%|    75|   719|   719|
+PJ-ACAILANDIA-FORTEL-20M-310752            |UP   | 6d00h49min|    3| 98,89%|  25ms|  98,89%|     8|   719|   719|
+PJ-ALCANTARA-FORTEL-10M-349660             |UP   | 0d00h00min|   19| 95,41%|  28ms|  95,41%|    33|   719|   719|
+PJ-ALTO-PARNAIBA-FORTEL-10M-338866         |UP   |12d22h19min|    3| 99,58%|  19ms|  99,58%|     3|   719|   719|
+PJ-AMARANTE-FORTEL-10M-336152              |UP   |12d22h14min|   37| 92,49%|  43ms|  92,49%|    54|   719|   719|
+PJ-ANAJATUBA-FORTEL-10M-294700             |UP   |12d22h40min|    1| 99,86%|  21ms|  99,86%|     1|   719|   719|
+PJ-ARAIOSES-FORTEL-10M-343470              |UP   |12d22h19min|    3| 99,44%|  22ms|  99,44%|     4|   719|   719|
+PJ-ARAME-FORTEL-10M-342342                 |UP   |12d22h40min|    1| 99,86%|  20ms|  99,86%|     1|   719|   719|
+PJ-ARARI-FORTEL-10M-302632                 |UP   |12d22h40min|    1| 99,86%|  19ms|  99,86%|     1|   719|   719|
+PJ-AZEITAO-FORTEL-10M-339642               |UP   |12d22h40min|    1| 99,86%|  17ms|  99,86%|     1|   719|   719|
+PJ-BACABAL-FORTEL-20M-307264               |UP   |12d22h40min|    1| 99,86%|  15ms|  99,86%|     1|   719|   719|
+PJ-BACURI-FORTEL-10M-345286                |UP   |12d22h40min|    2| 99,72%|  23ms|  99,72%|     2|   719|   719|
+PJ-BALSAS-FORTEL-20M-314146                |UP   |12d22h40min|    1| 99,86%|  16ms|  99,86%|     1|   719|   719|
+PJ-BARAO-GRAJAU-FORTEL-10M-345594          |UP   |12d22h19min|    3| 99,44%|  37ms|  99,44%|     4|   719|   719|
+PJ-BARRA-CORDA-FORTEL-20M-329708           |UP   |12d22h40min|    1| 99,86%|  20ms|  99,86%|     1|   719|   719|
+PJ-BARREIRINHAS-FORTEL-20M-315888          |UP   |12d22h40min|    5| 82,34%|  23ms|  82,34%|   127|   719|   719|
+PJ-BEQUIMAO-FORTEL-10M-328068              |UP   |12d22h40min|    1| 99,86%|  21ms|  99,86%|     1|   719|   719|
+PJ-BOM-JARDIM-FORTEL-10M-343412            |UP   |12d22h40min|    1| 99,86%|  26ms|  99,86%|     1|   719|   719|
+PJ-BREJO-FORTEL-10M-340212                 |UP   |12d22h40min|    2| 99,72%|  13ms|  99,72%|     2|   719|   719|
+PJ-BURITI-BRAVO-FORTEL-10M-343314          |UP   |12d22h40min|    2| 99,72%|  13ms|  99,72%|     2|   719|   719|
+PJ-BURITI-FORTEL-10M-342044                |UP   |12d22h14min|   14| 97,77%|  12ms|  97,77%|    16|   718|   718|
+PJ-BURITICUPU-FORTEL-10M-331014            |UP   |12d22h40min|    1| 99,85%|  17ms|  99,85%|     1|   677|   677|
+PJ-BURITICUPU-FORTEL-20M-331014            |UP   | 8d21h39min|    0|100,00%|  30ms| 100,00%|     0|    42|    42|
+PJ-CANDIDO-MENDES-FORTEL-10M-341998        |UP   |12d22h37min|    2| 99,72%|  25ms|  99,72%|     2|   719|   719|
+PJ-CANTANHEDE-FORTEL-10M-310768            |UP   |12d22h40min|    2| 99,72%|  19ms|  99,72%|     2|   719|   719|
+PJ-CAROLINA-FORTEL-10M-342164              |UP   |12d22h14min|    6| 99,17%|  33ms|  99,17%|     6|   719|   719|
+PJ-CARUTAPERA-FORTEL-10M-343102            |UP   |12d22h40min|    1| 99,86%|  20ms|  99,86%|     1|   719|   719|
+PJ-CAXIAS-DISTRITAL-FORTEL-10M-203815-00006|UP   |12d22h19min|    3| 99,58%|  37ms|  99,58%|     3|   719|   719|
+PJ-CAXIAS-FORTEL-100M-339554               |UP   |12d22h19min|    2| 99,72%|  36ms|  99,72%|     2|   719|   719|
+PJ-CEDRAL-FORTEL-10M-314636                |UP   |12d22h18min|    2| 99,72%|  21ms|  99,72%|     2|   719|   719|
+PJ-CHAPADINHA-FORTEL-20M-319638            |UP   |12d22h40min|    2| 99,72%|  21ms|  99,72%|     2|   719|   719|
+PJ-CODO-FORTEL-100M-328042                 |UP   | 8d21h39min|    0|100,00%|  11ms| 100,00%|     0|    42|    42|
+PJ-CODO-FORTEL-20M-328042                  |UP   |12d22h40min|    1| 99,85%|  11ms|  99,85%|     1|   677|   677|
+PJ-COELHO-NETO-FORTEL-10M-340282           |UP   | 0d00h01min|    4| 99,44%|  11ms|  99,44%|     4|   719|   719|
+PJ-COLINAS-FORTEL-10M-321094               |UP   |12d22h40min|    1| 99,86%|  18ms|  99,86%|     1|   719|   719|
+PJ-COROATA-FORTEL-10M-340012               |UP   |12d22h18min|    2| 99,72%|  11ms|  99,72%|     2|   719|   719|
+PJ-CURURUPU-FORTEL-10M-315876              |UP   |12d22h40min|    1| 99,86%|  22ms|  99,86%|     1|   719|   719|
+PJ-DOM-PEDRO-FORTEL-10M-310738             |UP   |12d22h40min|    1| 99,86%|  13ms|  99,86%|     1|   719|   719|
+PJ-ESPERANTINOPOLIS-FORTEL-10M-342002      |UP   | 6d00h49min|    0|  5,15%|  14ms|   5,15%|   681|   718|   718|
+PJ-ESTREITO-FORTEL-10M-335962              |UP   |12d22h19min|    3| 99,58%|  41ms|  99,58%|     3|   719|   719|
+PJ-EUGENIO-BARROS-FORTEL-10M-343742        |UP   | 0d00h18min|    3| 98,61%|  15ms|  98,61%|    10|   719|   719|
+PJ-GRAJAU-FORTEL-10M-314138                |UP   |12d22h40min|    2| 99,58%|  21ms|  99,58%|     3|   719|   719|
+PJ-GUIMARAES-FORTEL-10M-317330             |UP   |12d22h40min|    1| 99,86%|  22ms|  99,86%|     1|   719|   719|
+PJ-HUMBERTO-CAMPOS-FORTEL-10M-326424       |UP   | 6d00h49min|    4| 98,75%|  28ms|  98,75%|     9|   719|   719|
+PJ-ICATU-FORTEL-10M-317144                 |UP   |12d22h19min|    2| 99,72%|  25ms|  99,72%|     2|   719|   719|
+PJ-IGARAPE-GRANDE-FORTEL-10M-331010        |UP   |12d22h40min|    1| 99,86%|  11ms|  99,86%|     1|   719|   719|
+PJ-IMPERATRIZ-ANEXO-FORTEL-10M-203815-00005|UP   |12d22h19min|    2| 99,72%|  36ms|  99,72%|     2|   719|   719|
+PJ-IMPERATRIZ-FORTEL-100M-339196           |UP   |12d22h19min|    4| 99,44%|  35ms|  99,44%|     4|   719|   719|
+PJ-ITAPECURU-FORTEL-10M-307066             |UP   |12d22h40min|    6| 99,03%|  21ms|  99,03%|     7|   719|   719|
+PJ-ITINGA-FORTEL-10M-339326                |UP   |12d22h40min|    2| 99,72%|  23ms|  99,72%|     2|   719|   719|
+PJ-ITZ-CASA-MULHER-FORTEL-10M-340782       |UP   |12d22h40min|    1| 99,86%|  40ms|  99,86%|     1|   719|   719|
+PJ-JOAO-LISBOA-FORTEL-10M-335958           |UP   |12d22h40min|    1| 99,86%|  20ms|  99,86%|     1|   719|   719|
+PJ-JOSELANDIA-FORTEL-10M-345382            |UP   |12d22h40min|    1| 99,86%|  16ms|  99,86%|     1|   719|   719|
+PJ-LAGO-DA-PEDRA-FORTEL-10M-336060         |UP   |12d22h40min|    1| 99,86%|  12ms|  99,86%|     1|   719|   719|
+PJ-LORETO-FORTEL-10M-306484                |UP   |12d22h40min|    1| 99,86%|  16ms|  99,86%|     1|   719|   719|
+PJ-MAGALHAES-FORTEL-10M-342108             |UP   |12d22h40min|    1| 99,86%|  14ms|  99,86%|     1|   719|   719|
+PJ-MANGABEIRAS-FORTEL-10M-339390           |UP   |12d22h40min|    1| 99,86%|  18ms|  99,86%|     1|   719|   719|
+PJ-MARACACUME-FORTEL-10M-308310            |UP   |12d22h18min|    2| 99,72%|  22ms|  99,72%|     2|   719|   719|
+PJ-MATINHA-FORTEL-10M-313164               |UP   |12d22h40min|    1| 99,86%|  21ms|  99,86%|     1|   719|   719|
+PJ-MATOES-FORTEL-10M-341718                |UP   |12d22h40min|    1| 99,86%|   9ms|  99,86%|     1|   719|   719|
+PJ-MIRADOR-FORTEL-10M-321534               |UP   |12d22h40min|    3| 99,58%|  14ms|  99,58%|     3|   719|   719|
+PJ-MIRINZAL-FORTEL-10M-315408              |UP   |12d22h40min|    1| 99,86%|  23ms|  99,86%|     1|   719|   719|
+PJ-MONCAO-FORTEL-10M-321478                |UP   |12d22h40min|    1| 99,86%|  21ms|  99,86%|     1|   719|   719|
+PJ-MONTES-ALTOS-FORTEL-10M-336538          |UP   |12d22h14min|   40| 91,79%|  36ms|  91,79%|    59|   719|   719|
+PJ-MORROS-FORTEL-10M-317150                |UP   |12d22h40min|    2| 99,72%|  30ms|  99,72%|     2|   719|   719|
+PJ-NUNES-FREIRE-FORTEL-10M-321804          |UP   |12d22h40min|    1| 99,86%|  23ms|  99,86%|     1|   719|   719|
+PJ-OLHO-DAGUA-FORTEL-10M-333928            |UP   |12d22h40min|    1| 99,86%|  12ms|  99,86%|     1|   719|   719|
+PJ-OLINDA-NOVA-FORTEL-10M-310762           |UP   |12d22h40min|    1| 99,86%|  20ms|  99,86%|     1|   719|   719|
+PJ-PACO-LUMIAR-BITAL-100M-QINQ-2707        |UP   |12d22h40min|    2| 99,72%|   4ms|  99,72%|     2|   719|   719|
+PJ-PARAIBANO-FORTEL-10M-339170             |UP   |12d22h19min|    2| 99,72%|  23ms|  99,72%|     2|   719|   719|
+PJ-PARNARAMA-FORTEL-10M-341624             |UP   |12d22h40min|    1| 99,86%|   9ms|  99,86%|     1|   719|   719|
+PJ-PASSAGEM-FRANCA-FORTEL-10M-321240       |UP   |12d22h40min|    1| 99,86%|  14ms|  99,86%|     1|   719|   719|
+PJ-PASTOS-BONS-FORTEL-10M-327924           |UP   |12d22h40min|    1| 99,86%|  18ms|  99,86%|     1|   719|   719|
+PJ-PAULO-RAMOS-FORTEL-10M-331540           |DOWN | 0d00h04min|    4| 96,24%|   0ms|  96,24%|    27|   719|   719|
+PJ-PEDREIRAS-FORTEL-20M-342256             |UP   |12d22h40min|    2| 99,72%|  12ms|  99,72%|     2|   719|   719|
+PJ-PENALVA-FORTEL-10M-310746               |UP   |12d22h40min|    1| 99,86%|  23ms|  99,86%|     1|   719|   719|
+PJ-PINDARE-MIRIM-FORTEL-10M-335954         |UP   |12d22h40min|    1| 99,86%|  14ms|  99,86%|     1|   719|   719|
+PJ-PINHEIRO-FORTEL-20M-317142              |UP   |12d22h40min|    2| 99,72%|  20ms|  99,72%|     2|   719|   719|
+PJ-PIO-XII-FORTEL-10M-341790               |UP   | 6d00h49min|    2| 99,72%|  13ms|  99,72%|     2|   719|   719|
+PJ-POCAO-PEDRAS-FORTEL-10M-343744          |UP   |12d22h28min|    2| 99,72%|  15ms|  99,72%|     2|   719|   719|
+PJ-PORTO-FRANCO-FORTEL-10M-342098          |UP   |12d22h20min|    2| 99,72%|  42ms|  99,72%|     2|   719|   719|
+PJ-PRESIDENTE-DUTRA-FORTEL-20M-329638      |UP   |12d22h40min|    1| 99,86%|  14ms|  99,86%|     1|   719|   719|
+PJ-RAPOSA-BITAL-100M-QINQ-2707             |UP   |12d22h40min|    1| 99,86%|   4ms|  99,86%|     1|   719|   719|
+PJ-RIACHAO-FORTEL-10M-322918               |UP   |12d22h40min|    1| 99,86%|  19ms|  99,86%|     1|   719|   719|
+PJ-RIBAMAR-BITAL-100M-QINQ-2707            |UP   |12d22h40min|    1| 99,86%|   4ms|  99,86%|     1|   719|   719|
+PJ-ROSARIO-FORTEL-10M-320142               |UP   |12d22h19min|    2| 99,72%|  25ms|  99,72%|     2|   719|   719|
+PJ-SAO-BENTO-FORTEL-10M-313970             |UP   |12d22h40min|    1| 99,86%|  22ms|  99,86%|     1|   719|   719|
+PJ-SAO-BERNARDO-FORTEL-10M-316860          |UP   |12d22h40min|    1| 99,86%|  12ms|  99,86%|     1|   719|   719|
+PJ-SAO-DOMINGOS-MA-FORTEL-10M-149307-00007 |UP   |12d22h40min|    1| 99,86%|  22ms|  99,86%|     1|   719|   719|
+PJ-SAO-FRANCISCO-MA-FORTEL-10M-343502      |UP   |12d22h19min|    2| 99,72%|  22ms|  99,72%|     2|   719|   719|
+PJ-SAO-JOAO-BATISTA-FORTEL-10M-282360      |UP   |12d22h18min|    2| 99,72%|  21ms|  99,72%|     2|   719|   719|
+PJ-SAO-JOAO-PATOS-FORTEL-10M-331626        |UP   |12d22h40min|    1| 99,86%|  26ms|  99,86%|     1|   719|   719|
+PJ-SAO-MATEUS-FORTEL-10M-339356            |UP   |12d22h40min|    1| 99,86%|  12ms|  99,86%|     1|   719|   719|
+PJ-SAO-PEDRO-AGUA-FORTEL-10M-343450        |UP   |12d22h40min|    1| 99,86%|  22ms|  99,86%|     1|   719|   719|
+PJ-SAO-VICENTE-FORTEL-10M-310728           |UP   |12d22h40min|    1| 99,86%|  21ms|  99,86%|     1|   719|   719|
+PJ-SENADOR-LA-ROCQUE-FORTEL-10M-335940     |DOWN | 0d00h18min|    9| 94,99%|   0ms|  94,99%|    36|   719|   719|
+PJ-SLZ-GONZAGA-FORTEL-10M-317438           |UP   |12d22h40min|    1| 99,86%|  13ms|  99,86%|     1|   719|   719|
+PJ-ST-ANTONIO-LOPES-FORTEL-10M-317436      |UP   |12d22h40min|    1| 99,86%|  14ms|  99,86%|     1|   719|   719|
+PJ-ST-HELENA-FORTEL-10M-339028             |UP   |12d22h40min|    1| 99,86%|  21ms|  99,86%|     1|   719|   719|
+PJ-ST-INES-FORTEL-20M-288108               |UP   |12d22h40min|    1| 99,86%|  13ms|  99,86%|     1|   719|   719|
+PJ-ST-LUZIA-FORTEL-10M-322306              |UP   |12d22h13min|   60| 79,97%|  32ms|  79,97%|   144|   719|   719|
+PJ-ST-LUZIA-PARUA-FORTEL-10M-149307-00101  |UP   | 8d21h39min|    0|100,00%|  19ms| 100,00%|     0|    42|    42|
+PJ-ST-LUZIA-PARUA-FORTEL-10M-345676        |UP   |12d22h40min|    1| 99,86%|  20ms|  99,86%|     1|   719|   719|
+PJ-ST-LUZIA-PARUA-FORTEL-10M-SEM-CODIGO    |DOWN |12d23h47min|    0|  0,15%|   0ms|   0,15%|   675|   676|   676|
+PJ-ST-QUITERIA-FORTEL-10M-338666           |UP   | 0d00h01min|    5| 99,30%|  22ms|  99,30%|     5|   719|   719|
+PJ-ST-RITA-FORTEL-10M-320144               |UP   |12d22h19min|    2| 99,72%|  29ms|  99,72%|     2|   719|   719|
+PJ-TIMBIRAS-FORTEL-10M-323914              |UP   |12d22h14min|   57| 85,81%| 132ms|  85,81%|   102|   719|   719|
+PJ-TIMON-FORTEL-100M-294208                |UP   |12d22h19min|    3| 99,58%|  23ms|  99,58%|     3|   719|   719|
+PJ-TIMON-SHOPPING-FORTEL-10M-341054        |UP   |12d22h19min|    2| 99,58%|  23ms|  99,58%|     3|   719|   719|
+PJ-TUNTUM-FORTEL-10M-322678                |UP   |12d22h40min|    1| 99,86%|  22ms|  99,86%|     1|   719|   719|
+PJ-TURIACU-FORTEL-10M-321156               |UP   |12d22h31min|    2| 99,72%|  23ms|  99,72%|     2|   719|   719|
+PJ-TUTOIA-FORTEL-10M-315848                |UP   |12d22h40min|    1| 99,86%|  23ms|  99,86%|     1|   719|   719|
+PJ-URBANO-SANTOS-FORTEL-10M-305036         |UP   |12d22h20min|    4| 99,44%|  23ms|  99,44%|     4|   719|   719|
+PJ-VARGEM-GRANDE-FORTEL-10M-312452         |UP   |12d22h40min|    1| 99,86%|  21ms|  99,86%|     1|   719|   719|
+PJ-VIANA-FORTEL-10M-308022                 |UP   |12d22h40min|    2| 99,30%|  20ms|  99,30%|     5|   719|   719|
+PJ-VITORIA-MEARIM-FORTEL-10M-305014        |UP   |12d22h40min|    1| 99,86%|  19ms|  99,86%|     1|   719|   719|
+PJ-VITORINO-FORTEL-20M-344288              |UP   |12d22h40min|    1| 99,86%|  12ms|  99,86%|     1|   719|   719|
+PJ-ZE-DOCA-FORTEL-10M-345884               |UP   |12d22h40min|    1| 99,86%|  24ms|  99,86%|     1|   719|   719|
+SLS-ALMOXARIFADO-BITAL-100M-QINQ-2707      |UP   |12d23h47min|    0|100,00%|   5ms| 100,00%|     0|   719|   719|
+SLS-CASA-MULHER-BITAL-100M-QINQ-2707       |UP   |12d23h47min|    0|100,00%|   3ms| 100,00%|     0|   719|   719|
+SLS-DIVINEIA-BITAL-100M-QINQ-2707          |UP   | 8d21h38min|  121| 74,23%|   7ms|  74,23%|   185|   718|   718|
+SLS-PJ-CONSUMIDOR-10M-SEM-CODIGO           |UP   |12d22h19min|    6| 98,82%|  39ms|  98,82%|     8|   677|   677|
+SLS-PJ-CONSUMIDOR-FORTEL-20M-149307-00102  |UP   | 8d21h39min|    0|100,00%|  29ms| 100,00%|     0|    42|    42|
+SLS-PJ-CREAISPI-FORTEL-20M-149307-00103    |UP   | 6d00h49min|    0| 90,24%|  33ms|  90,24%|     4|    41|    41|
+SLS-PJECA-BITAL-100M-QINQ-2707             |UP   |12d23h47min|    0|100,00%|   7ms| 100,00%|     0|   719|   719|
+SLS-PJIJ-CAJAZEIRAS-BITAL-100M-QINQ-2707   |UP   |12d23h47min|    0|100,00%|   3ms| 100,00%|     0|   719|   719|
