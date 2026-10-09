@@ -6,7 +6,7 @@ Os quatro pilares são investigação orientada, gestão de operadoras, visibili
 
 ## Estado atual
 
-O primeiro marco de backend está implementado:
+Os marcos de base e de persistência/cadastro estão implementados:
 
 - Java 21, Spring Boot 4.0.8 e Maven Wrapper 3.9.9.
 - Demo com 12 circuitos sintéticos, seis unidades e três operadoras fictícias.
@@ -14,17 +14,21 @@ O primeiro marco de backend está implementado:
 - Confirmação de queda/recuperação, expiração para UNKNOWN, qualidade independente da disponibilidade e contadores por ano/mês/fuso.
 - Execução paralela com workers/fila limitados, exclusão por circuito, prazo total e encerramento gerenciado.
 - Consultas HTTP de circuitos, incidentes, resumo e métricas da execução.
+- PostgreSQL com migrações Flyway, cadastro de unidades/operadoras/circuitos e arquivamento sem apagar evidências.
+- Medições, incidentes e estado das regras salvos na mesma transação, com deduplicação durável por UUID.
+- Recuperação de confirmações e incidentes após reinício; observações antigas passam a UNKNOWN.
 - Testes de regras, concorrência, roteiro sintético e API.
 
-Os dados ficam **em memória** e são reiniciados ao parar a aplicação. PostgreSQL está preparado no Compose, mas ainda não está conectado ao backend. Cadastro persistente, relações de redundância, exportação e nova interface são entregas seguintes. A pasta `UI_monitor` contém o protótipo antigo e ainda não representa uma demo visual funcional.
+O perfil padrão usa **PostgreSQL** e preserva os dados após reinício. A origem continua sintética: um circuito cadastrado escolhe um cenário de simulação, sem acessar redes reais. Existe um perfil opcional em memória para testes e demonstrações sem banco. Relações de redundância, exportação, coleta TCP/HTTP e nova interface são entregas seguintes. A pasta `UI_monitor` contém o protótipo antigo e ainda não representa uma demo visual funcional.
 
 ## Executar o backend
 
 Requisito: JDK 21. O Maven Wrapper baixa a distribuição e as dependências na primeira execução; não é necessário instalar Maven separadamente.
 
-Na raiz do repositório:
+Na raiz do repositório, iniciar o banco antes do backend:
 
 ```bash
+docker compose up -d --wait postgres
 cd API_monitor
 ./mvnw test
 ./mvnw spring-boot:run
@@ -32,13 +36,23 @@ cd API_monitor
 
 Em um terminal Windows, usar `mvnw.cmd` no lugar de `./mvnw`.
 
-A API inicia em `http://127.0.0.1:8080`, no perfil `demo`. Não precisa de Docker ou banco para este primeiro marco. Para escolher outra porta:
+A API inicia em `http://127.0.0.1:8080`, nos perfis `demo,postgres`. Flyway cria/valida o esquema; a carga inicial adiciona a demo sem sobrescrever cadastros já editados ou reativar circuitos arquivados. Para escolher outra porta:
 
 ```bash
 ./mvnw spring-boot:run -Dspring-boot.run.arguments="--server.port=8081"
 ```
 
 Para consultar pelo navegador, abrir a URL completa [resumo em JSON](http://127.0.0.1:8080/api/v1/dashboard/summary) ou [circuitos em JSON](http://127.0.0.1:8080/api/v1/circuits), usando `http://` e mantendo a aplicação em execução. A raiz `http://127.0.0.1:8080/` retorna 404 porque este marco implementa somente a API, sem página inicial ou painel visual. A pasta `UI_monitor` ainda não está integrada ao novo contrato.
+
+### Demo sem banco
+
+Para usar somente os 12 circuitos em memória:
+
+```bash
+./mvnw spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=demo,memory"
+```
+
+Esse modo reinicia os dados ao parar a aplicação, retorna `persisted: false` e oferece apenas consultas de monitoramento; cadastro e histórico durável exigem `postgres`.
 
 ### Navegador no Windows e backend no WSL
 
@@ -96,13 +110,16 @@ curl http://127.0.0.1:8080/api/v1/monitoring/execution
 | --- | --- |
 | `GET /api/v1/circuits` | Snapshots com disponibilidade, qualidade, idade, contadores e evidências. |
 | `GET /api/v1/circuits/{id}` | Detalhe pelo UUID retornado na listagem; 404 quando inexistente. |
-| `GET /api/v1/incidents` | Incidentes abertos e histórico recente da sessão. |
-| `GET /api/v1/dashboard/summary` | Totais separados, `source: SIMULATED` e `persisted: false`. |
+| `GET /api/v1/circuits/{id}/measurements?limit=100` | Medições persistidas, mais recentes primeiro, com estado de processamento. |
+| `GET /api/v1/incidents?limit=200` | Incidentes persistidos, mais recentes primeiro; inclui os de circuitos arquivados. |
+| `GET /api/v1/dashboard/summary` | Totais dos circuitos ativos, `source: SIMULATED` e `persisted: true` no perfil padrão. |
 | `GET /api/v1/monitoring/execution` | Workers, fila, execuções, sobreposições evitadas, rejeições, timeouts e erros de processamento. |
 
 `/hostdata` é um alias temporário para a **nova estrutura de snapshots**. Não preserva o envelope JSON antigo e não lê `hostdata.json` do classpath. A nova UI deve usar `/api/v1`.
 
-O roteiro se repete a cada 120 segundos, contados desde a inicialização:
+As consultas de medições e incidentes aceitam `limit` entre 1 e 500. O detalhe do circuito apresenta até 100 incidentes encerrados recentes e o incidente aberto; o histórico completo permanece no banco. A paginação por cursor será adicionada em uma etapa posterior.
+
+O roteiro se repete a cada 120 segundos. Seu instante inicial fica salvo no PostgreSQL e é reutilizado após reinício; no perfil em memória, começa na inicialização:
 
 | Situação | Roteiro sintético |
 | --- | --- |
@@ -124,6 +141,7 @@ As propriedades ficam em `API_monitor/src/main/resources/application.properties`
 | `server.address` | `127.0.0.1`; usar `0.0.0.0` por argumento para acesso pelo IP do WSL |
 | `server.port` | `8080`, ou o valor da variável `PORT` |
 | `monitoring.demo.enabled` | `true` |
+| `monitoring.demo.seed-enabled` | `true`; `false` inicia sem inserir os cadastros da demo |
 | `monitoring.demo.interval` | `10s` |
 | `monitoring.failure-threshold` | `3` |
 | `monitoring.recovery-threshold` | `2` |
@@ -139,7 +157,9 @@ Erros de execução não entram na taxa de falha do destino; rejeições de capa
 
 `elapsedSeconds` indica o intervalo do incidente, não downtime comprovado em caso de lacuna. `hasObservationGap` sinaliza essa limitação. Primeira evidência e confirmação são armazenadas separadamente; uma primeira observação DOWN não inventa uma queda anterior a partir de UP.
 
-A memória é limitada a 100 incidentes concluídos, 256 IDs recentes para deduplicação e 24 meses de contadores por circuito. Resultados antigos também são rejeitados por ordem temporal. Persistência, retenção operacional e idempotência durável entram com PostgreSQL; este marco não é uma solução completa de histórico/SLA.
+O estado salvo limita a 100 incidentes concluídos recentes, 256 IDs recentes e 24 meses de contadores por circuito. No PostgreSQL, a chave única das medições mantém a deduplicação além dessa janela; medições e incidentes completos continuam no banco. Resultados fora de ordem ficam registrados com `OUT_OF_ORDER` e não alteram contadores. Retenção automática, SLA completo e paginação do histórico ainda estão pendentes.
+
+Usar um coletor ativo por banco neste marco. Locks no PostgreSQL protegem o processamento concorrente dos resultados, mas não implementam eleição de coletor entre várias instâncias da aplicação. Uma indisponibilidade do banco gera erro e é registrada; a aplicação não troca silenciosamente para memória. O scheduler tenta novamente no próximo ciclo.
 
 ## PostgreSQL com Docker Compose
 
@@ -162,7 +182,9 @@ Para parar mantendo os dados:
 docker compose stop postgres
 ```
 
-Na entrega de persistência, o backend será conectado a esse banco. Durante o desenvolvimento, Java e frontend podem executar localmente; o Compose completo da demo será preparado após a interface. A tag fixa a versão principal 17 e pode receber patches; uma futura publicação poderá fixar também o digest da imagem validada.
+O backend conecta a esse banco por JDBC. Durante o desenvolvimento, Java e frontend podem executar localmente; o Compose completo da demo será preparado após a interface. A tag fixa a versão principal 17 e pode receber patches; uma futura publicação poderá fixar também o digest da imagem validada.
+
+As propriedades `POSTGRES_HOST`, `POSTGRES_PORT`, `POSTGRES_DB`, `POSTGRES_USER` e `POSTGRES_PASSWORD` configuram a conexão. Os padrões correspondem ao Compose. `DB_URL` permite fornecer uma URL JDBC completa. O Compose lê `.env`; o Java local exige exportar as variáveis ou passar argumentos Spring. A criação de `.env` por si só não altera a configuração do backend. [Persistência e cadastro](docs/PERSISTENCIA_E_CADASTRO.md) descreve o esquema, os contratos e a recuperação.
 
 ## Evidências e próximos marcos
 
@@ -170,11 +192,21 @@ Os testes controlam o tempo nas regras e usam sincronização nas verificações
 
 O código antigo (`Monitor`, `HostController`, `PingAndWriteService` e `MonitoramentoServer`) foi preservado para referência e migração. Ele não participa da execução Spring da demo nova. A entrada do backend é `MonitoramentoApplication`.
 
-Próximo marco: PostgreSQL/Flyway, cadastro genérico persistente e regras de redundância. Depois, a interface apresentará os quatro pilares e seus dados de forma clara. Integração com Zabbix e SNMP permanecem extensões.
+Para executar os testes de integração, manter o Docker disponível e usar:
+
+```bash
+./mvnw verify -Pintegration-tests
+```
+
+O Testcontainers cria PostgreSQL isolado e descarta o container ao concluir, sem usar o banco do Compose. `./mvnw test` executa somente os testes unitários e de API em memória. A verificação de integração cobre migrações, cadastro, recuperação em um novo contexto da aplicação, duplicatas concorrentes, janela de deduplicação, rollback, lacunas, arquivamento e cadastro monitorado pelo executor real.
+
+Na validação desta etapa, passaram 41 testes unitários/API em memória e dez testes de integração. O JAR também foi validado por HTTP com cadastro dinâmico e recuperação do mesmo incidente e suas medições após reinício.
+
+Próximo marco: interpretar redundância e preparar o resumo para operadoras. Depois, a interface apresentará os quatro pilares de forma clara. Integração com Zabbix e SNMP permanecem extensões.
 
 ## Desenvolvimento por branches
 
-A `main` registra a base validada e recebe as etapas concluídas por pull request. A tag `marco-01-base-monitoramento` identifica o primeiro marco: backend com demo sintética, regras e concorrência controlada. A próxima etapa começa em `feat/02-persistencia-cadastro`; as demais branches serão criadas quando seu trabalho começar, a partir da `main` atualizada.
+A `main` registra a base validada e recebe as etapas concluídas por pull request. A tag `marco-01-base-monitoramento` identifica o primeiro marco: backend com demo sintética, regras e concorrência controlada. A persistência/cadastro é desenvolvida em `feat/02-persistencia-cadastro`; as demais branches serão criadas quando seu trabalho começar, a partir da `main` atualizada.
 
 | Branch de etapa | Escopo | Evidência para concluir |
 | --- | --- | --- |
@@ -185,15 +217,15 @@ A `main` registra a base validada e recebe as etapas concluídas por pull reques
 
 As branches dividem as entregas do [plano](docs/ANALISE_E_PLANO_MONITORAMENTO.md#15-plano-de-implementação-por-entregas) em marcos de implementação; criar uma branch não significa que sua funcionalidade já está pronta. Correções específicas usam `fix/<descricao>` e podem partir da etapa em andamento.
 
-Para começar uma etapa, com as alterações locais já registradas:
+Para começar uma nova etapa, com as alterações locais já registradas e a anterior integrada:
 
 ```bash
 git switch main
 git pull --ff-only origin main
-git switch -c feat/02-persistencia-cadastro
-git push -u origin feat/02-persistencia-cadastro
+git switch -c feat/03-redundancia-operadoras
+git push -u origin feat/03-redundancia-operadoras
 ```
 
-Se a branch já existir no remoto, usar `git switch feat/02-persistencia-cadastro`; em um clone novo, o Git configura o acompanhamento da branch remota. Fazer commits por mudança coerente e abrir um pull request para `main` ao concluir a etapa, descrevendo comportamento, validação e limites. Antes da integração, executar `./mvnw verify` na pasta `API_monitor` e os checks da interface quando ela existir. Após integrar, criar a próxima branch a partir da `main` atualizada.
+Se a branch já existir no remoto, usar `git switch <nome-da-branch>`; em um clone novo, o Git configura o acompanhamento da branch remota. Fazer commits por mudança coerente e abrir um pull request para `main` ao concluir a etapa, descrevendo comportamento, validação e limites. Antes da integração, executar `./mvnw verify -Pintegration-tests` na pasta `API_monitor` e os checks da interface quando ela existir. Após integrar, criar a próxima branch a partir da `main` atualizada.
 
 Artefatos gerados em `target`, dependências instaladas e arquivos `.env` ficam locais e são ignorados pelo Git. Os históricos antigos nos fontes continuam preservados como referência; a demo utiliza somente dados sintéticos.

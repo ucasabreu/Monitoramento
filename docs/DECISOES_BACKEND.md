@@ -1,5 +1,7 @@
 # Decisões do primeiro marco de backend
 
+Este documento registra as decisões da base inicial. A evolução para banco e cadastro está documentada em [Persistência e cadastro — etapa 02](PERSISTENCIA_E_CADASTRO.md); o README descreve a execução atual.
+
 ## Origem do problema e recorte
 
 A evolução preserva a motivação relatada: um analista precisava compreender dados de monitoramento com menos trabalho de interpretação. O portfólio apresenta backend, concorrência e regras de monitoramento por meio de uma demo independente da rede institucional. A interface posterior terá investigação, operadoras, redundância e operação simples como quatro fluxos centrais.

@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest(properties = "monitoring.demo.enabled=false")
 @AutoConfigureMockMvc
-@ActiveProfiles("demo")
+@ActiveProfiles({"demo", "memory"})
 class MonitoringControllerTest {
     @Autowired MockMvc mvc;
     @Autowired DemoMonitoringService monitoring;
