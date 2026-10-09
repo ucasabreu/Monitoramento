@@ -1,6 +1,7 @@
 package com.example.monitoramento.api;
 
 import com.example.monitoramento.demo.DemoMonitoringService;
+import com.example.monitoramento.monitoring.MonitoringStore;
 import com.example.monitoramento.execution.BoundedProbeExecutor;
 import com.example.monitoramento.status.Availability;
 import com.example.monitoramento.status.CircuitSnapshot;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.server.ResponseStatusException;
 
 @RestController
@@ -38,8 +40,19 @@ public class MonitoringController {
     }
 
     @GetMapping("/incidents")
-    public List<IncidentSnapshot> incidents() {
-        return monitoring.incidents();
+    public List<IncidentSnapshot> incidents(@RequestParam(defaultValue = "200") int limit) {
+        return monitoring.incidents(limit(limit));
+    }
+
+    @GetMapping("/circuits/{id}/measurements")
+    public List<MonitoringStore.Measurement> measurements(@PathVariable UUID id,
+            @RequestParam(defaultValue = "100") int limit) {
+        return monitoring.measurements(id, limit(limit));
+    }
+
+    private int limit(int value) {
+        if (value < 1 || value > 500) throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "limit deve estar entre 1 e 500");
+        return value;
     }
 
     @GetMapping("/monitoring/execution")
@@ -53,7 +66,7 @@ public class MonitoringController {
     @GetMapping("/dashboard/summary")
     public Summary summary() {
         List<CircuitSnapshot> circuits = monitoring.circuits();
-        return new Summary(circuits.getFirst().observedAt(), "SIMULATED", false, circuits.size(),
+        return new Summary(monitoring.observedAt(), "SIMULATED", monitoring.persisted(), circuits.size(),
                 circuits.stream().filter(c -> c.availability() == Availability.UP).count(),
                 circuits.stream().filter(c -> c.availability() == Availability.DOWN).count(),
                 circuits.stream().filter(c -> c.availability() == Availability.UNKNOWN).count(),

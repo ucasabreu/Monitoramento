@@ -1,12 +1,12 @@
 # Análise e plano — portfólio de gestão e investigação de circuitos
 
-Análise realizada em 08/10/2026 sobre os fontes e dados presentes neste checkout. O documento reúne a auditoria original, o planejamento e o acompanhamento da implementação. As seções 2 a 5 descrevem o estado anterior às mudanças; a seção 20 registra o primeiro marco implementado.
+Análise realizada em 08/10/2026 sobre os fontes e dados presentes neste checkout. O documento reúne a auditoria original, o planejamento e o acompanhamento da implementação. As seções 2 a 5 descrevem o estado anterior às mudanças; a seção 20 registra o primeiro marco e a seção 24 acompanha a persistência/cadastro implementados em 09/10/2026.
 
 Direção atualizada a partir do relato do autor: o objetivo é apresentar um projeto de portfólio baseado em uma necessidade real de um analista de redes, com prioridade para investigação orientada, gestão de operadoras, visibilidade de redundância e operação simples. As recomendações técnicas anteriores ficam subordinadas a esse recorte; extensões operacionais não são requisitos para concluir a primeira versão apresentável.
 
 ## 1. Conclusão e direção recomendada
 
-O projeto original tem uma base aproveitável em Java e Spring Boot, mas apresenta defeitos de inicialização, concorrência, cálculo, persistência e integração com a interface. A evolução começou por um novo núcleo de monitoramento e uma demo independente; a persistência e a nova interface continuam previstas nos próximos marcos.
+O projeto original tem uma base aproveitável em Java e Spring Boot, mas apresenta defeitos de inicialização, concorrência, cálculo, persistência e integração com a interface. A evolução implementou um novo núcleo, uma demo independente e persistência/cadastro genéricos. A interpretação de redundância, os resumos para operadoras e a nova interface continuam previstas nos próximos marcos.
 
 A proposta de portfólio é **transformar dados de monitoramento em informações claras para investigar incidentes e administrar circuitos de organizações com várias unidades**. O valor demonstrado será a passagem de medições para uma decisão compreensível: qual unidade foi afetada, qual circuito tem problema, desde quando, quais evidências sustentam isso e qual ação merece ser investigada.
 
@@ -772,3 +772,29 @@ O autor definiu esta implementação como a base para continuar o projeto. A con
 Nesta preparação, os 145 arquivos gerados que estavam versionados em `API_monitor/target` deixam de ser acompanhados pelo Git. Os arquivos locais remanescentes e os históricos nos fontes são preservados; não há reescrita do histórico do repositório. O Maven Wrapper passa a ter permissão de execução registrada no Git, permitindo usar os comandos documentados em novos clones Linux.
 
 A verificação de publicação usa uma cópia dos arquivos preparados no índice do Git, sem reutilizar o `target` antigo. Isso complementa a verificação anterior de build incremental. A criação da branch de persistência registra o início da etapa; banco integrado, cadastro persistente e recuperação após reinício continuam pendentes de implementação.
+
+## 24. Persistência e cadastro — etapa 02
+
+Implementação em `feat/02-persistencia-cadastro`, preservando a base da `main`. O perfil padrão passa a ser `demo,postgres`; a demo sem banco continua disponível explicitamente em `demo,memory`. A origem permanece sintética e o novo circuito escolhe um cenário de simulação, sem alvo institucional ou acesso a redes externas.
+
+| Parte | Resultado |
+| --- | --- |
+| Banco | PostgreSQL 17 via Compose, Spring JDBC/HikariCP e migração Flyway V1. |
+| Cadastro | Unidades, operadoras e circuitos por UUID; criação, consulta, atualização e exclusão/arquivamento via `/api/v1/catalog`. |
+| Integridade | Nomes únicos, referências válidas, validação HTTP e proteção contra excluir unidade/operadora ainda associada. |
+| Processamento | Medição, checkpoint e incidentes atualizados em uma transação com lock de circuito. Falhas revertem os efeitos completos. |
+| Reinício | Confirmações pendentes, contadores e identidade do incidente recuperados do checkpoint, sem reler todo o histórico. |
+| Idempotência | UUID de medição único no banco; repetição idêntica não duplica efeitos, conteúdo divergente gera conflito. |
+| Evidências | Resultado fora de ordem persiste como `OUT_OF_ORDER`, sem alterar contadores. Novas consultas de medições e incidentes têm limite de 1 a 500. |
+| Cadastro em operação | Novos circuitos entram nos ciclos; alteração de configuração invalida callbacks anteriores. Arquivamento suspende coleta sem apagar histórico nem inventar recuperação. |
+| Demo durável | Carga inicial idempotente preserva nomes/cenários editados, referências renomeadas e arquivamentos. O instante inicial do roteiro fica no banco. |
+
+As verificações incluem testes unitários de round-trip JSON do checkpoint e testes em PostgreSQL isolado com Testcontainers: cadastro HTTP, reinício com novo contexto Spring, consumidores concorrentes, duplicatas além da janela de 256 IDs, rollback com erro injetado, expiração/lacunas, arquivamento, callback antigo, carga inicial e circuito cadastrado acompanhado pelo executor real. O perfil Maven `integration-tests` executa esses testes com `verify`; os testes comuns continuam sem exigir banco.
+
+A validação manual utilizou o JAR conectado ao Compose e um cadastro sintético por HTTP: o novo circuito entrou nos ciclos, confirmou DOWN e produziu incidente e medições. Após parar e reiniciar o JAR, com novas sondas desativadas, o mesmo circuito recuperou 59 medições e a mesma identidade de incidente, agora UNKNOWN com lacuna sinalizada. O cadastro de validação foi arquivado pela API, preservando suas evidências. Os testes registraram 41 casos unitários/API em memória e dez casos de integração, sem falhas, erros ou ignorados.
+
+Os comandos e contratos estão no [README](../README.md) e em [Persistência e cadastro](PERSISTENCIA_E_CADASTRO.md). As seções 20 a 23 registram marcos anteriores; a informação atual de execução e armazenamento está nesta seção e no README.
+
+**Limites:** um coletor ativo por banco; sem eleição de coletor, retenção automática, outbox ou reenvio durável quando o banco está indisponível. Política de confirmação global, ainda sem versão por incidente. Snapshots mantêm histórico recente limitado, enquanto tabelas preservam o histórico completo; as consultas ainda não têm paginação por cursor. Autenticação, coleta real, redundância agregada e painel visual continuam nas etapas correspondentes.
+
+**Próximo marco:** `feat/03-redundancia-operadoras`, após integração desta etapa por pull request. Implementar a interpretação de disponibilidade da unidade e perda de redundância, além do resumo exportável para operadora, preservando origem, horários e lacunas de observação.

@@ -42,6 +42,48 @@ public final class CircuitMonitor {
         this.policy = Objects.requireNonNull(policy);
     }
 
+    public CircuitMonitor(CircuitDefinition circuit, MonitoringPolicy policy, MonitorCheckpoint saved) {
+        this(circuit, policy);
+        Objects.requireNonNull(saved);
+        availability = saved.availability();
+        quality = saved.quality();
+        latest = saved.latest();
+        lastReliableAt = saved.lastReliableAt();
+        firstFailureAt = saved.firstFailureAt();
+        firstRecoveryAt = saved.firstRecoveryAt();
+        candidateWasUp = saved.candidateWasUp();
+        consecutiveFailures = saved.consecutiveFailures();
+        consecutiveSuccesses = saved.consecutiveSuccesses();
+        successes = saved.successes();
+        failures = saved.failures();
+        errors = saved.errors();
+        falls = saved.falls();
+        recentResults.addAll(saved.recentResults());
+        saved.monthlyCounts().forEach(month -> monthlyCounts.put(YearMonth.parse(month.month()),
+                new long[] {month.tests(), month.failures(), month.errors()}));
+        history.addAll(saved.history());
+        if (saved.activeIncident() != null) {
+            var incident = saved.activeIncident();
+            active = new OpenIncident(incident.id(), incident.firstFailureAt(), incident.downConfirmedAt(),
+                    incident.beganWithoutConfirmedUp());
+            active.hasGap = incident.hasObservationGap();
+        }
+    }
+
+    public synchronized MonitorCheckpoint checkpoint() {
+        var months = monthlyCounts.entrySet().stream().map(entry -> new MonitorCheckpoint.MonthCounts(
+                entry.getKey().toString(), entry.getValue()[0], entry.getValue()[1], entry.getValue()[2])).toList();
+        return new MonitorCheckpoint(1, availability, quality, latest, lastReliableAt, firstFailureAt,
+                firstRecoveryAt, candidateWasUp, consecutiveFailures, consecutiveSuccesses,
+                successes, failures, errors, falls, new ArrayList<>(recentResults), months,
+                new ArrayList<>(history), active == null ? null : active.snapshot(circuit.id(),
+                        firstRecoveryAt, null, latest.completedAt()));
+    }
+
+    public synchronized void suspend() {
+        becomeUnknown();
+    }
+
     public synchronized Recording record(ProbeResult result, Instant receivedAt) {
         if (!circuit.id().equals(result.circuitId())) {
             throw new IllegalArgumentException("Resultado pertence a outro circuito");
@@ -148,7 +190,7 @@ public final class CircuitMonitor {
     }
 
     private String explanation(Instant now) {
-        if (latest == null) return "Aguardando medições sintéticas.";
+        if (latest == null) return "Aguardando medições.";
         if (availability == Availability.UNKNOWN) {
             if (latest.outcome() == ProbeOutcome.ERROR) return "Sem observação confiável: " + latest.detail();
             if (lastReliableAt != null && !now.isBefore(lastReliableAt.plus(policy.observationTtl()))) {
